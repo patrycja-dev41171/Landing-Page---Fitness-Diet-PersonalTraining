@@ -1,0 +1,37 @@
+:root {
+    /*colours*/
+    --primary-01: #120F10;
+    --primary-02: #413F40;
+    --primary-03: #888687;
+    --primary-04: #B8B7B8;
+    --primary-05: #E8E7E8;
+    --secondary-01: #FDFAFE;
+    --secondary-02: #CAC8CB;
+    --secondary-03: #7E7D7F;
+    --secondary-04: #4C4B4C;
+    --secondary-05: #191919;
+    --accent-01: #2DB2DC;
+    --accent-02: #57C1E3;
+    --accent-03: #95D8ED;
+    --accent-04: #C0E8F5;
+    --accent-05: #D5F0F8;
+    /*typography*/
+    --h1: 48px;
+    --h2: 36px;
+    --h3: 30px;
+    --p1: 20px;
+    --p2: 18px;
+    --p3: 14px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--primary-01);
+}
