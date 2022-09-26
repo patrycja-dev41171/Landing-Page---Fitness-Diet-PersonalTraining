@@ -1,0 +1,101 @@
+.section__for-who {
+  width: calc(100% - 120px);
+  padding: 120px 60px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__for-who__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__for-who__content > div {
+  width: calc((100vw - 15%) / 4);
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section__for-who__content > div:nth-child(1) {
+  background-image: url("../assets/forwho-1.png");
+}
+.section__for-who__content > div:nth-child(2) {
+  background-image: url("../assets/forwho-2.png");
+}
+.section__for-who__content > div:nth-child(3) {
+  background-image: url("../assets/forwho-3.png");
+}
+.section__for-who__content > div:nth-child(4) {
+  background-image: url("../assets/forwho-4.png");
+}
+
+.section__for-who__content p {
+  font-size: var(--p1);
+  margin: 0;
+  width: 100px;
+  position: absolute;
+  z-index: 99;
+  bottom: 30px;
+  left: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+  .section__for-who__content > div {
+    width: calc((100vw - 20%) / 4);
+    height: 38vh;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .section__for-who {
+    width: calc(100% - 120px);
+    padding: 120px 60px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__for-who__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .section__for-who__content > div {
+    width: calc((100vw - 32%) / 4);
+    min-width: 325px;
+    height: 30vh;
+    min-height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .section__for-who__content p {
+    font-size: var(--p3);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section__for-who__content > div {
+    margin: 30px auto 0;
+  }
+
+  .section__for-who__content p {
+    font-size: var(--p3);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section__for-who__content > div {
+    width: 100%;
+    min-width: 180px;
+    height: 20vh;
+    min-height: 400px;
+    margin-bottom: 30px;
+  }
+}

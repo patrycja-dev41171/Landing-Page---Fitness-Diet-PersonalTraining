@@ -45,7 +45,7 @@ nav img {
 }
 
 @media screen and (max-width: 920px) {
-  .nav {
+  nav {
     border-bottom: 1px solid var(--primary-01);
   }
 
