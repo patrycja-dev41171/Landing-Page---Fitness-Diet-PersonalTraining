@@ -1,37 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@import url("./styles/nav.css");
 :root {
-    /*colours*/
-    --primary-01: #120F10;
-    --primary-02: #413F40;
-    --primary-03: #888687;
-    --primary-04: #B8B7B8;
-    --primary-05: #E8E7E8;
-    --secondary-01: #FDFAFE;
-    --secondary-02: #CAC8CB;
-    --secondary-03: #7E7D7F;
-    --secondary-04: #4C4B4C;
-    --secondary-05: #191919;
-    --accent-01: #2DB2DC;
-    --accent-02: #57C1E3;
-    --accent-03: #95D8ED;
-    --accent-04: #C0E8F5;
-    --accent-05: #D5F0F8;
-    /*typography*/
-    --h1: 48px;
-    --h2: 36px;
-    --h3: 30px;
-    --p1: 20px;
-    --p2: 18px;
-    --p3: 14px;
+  /*colours*/
+  --primary-01: #120f10;
+  --primary-02: #413f40;
+  --primary-03: #888687;
+  --primary-04: #b8b7b8;
+  --primary-05: #e8e7e8;
+  --secondary-01: #fdfafe;
+  --secondary-02: #cac8cb;
+  --secondary-03: #7e7d7f;
+  --secondary-04: #4c4b4c;
+  --secondary-05: #191919;
+  --accent-01: #2db2dc;
+  --accent-02: #57c1e3;
+  --accent-03: #95d8ed;
+  --accent-04: #c0e8f5;
+  --accent-05: #d5f0f8;
+  /*typography*/
+  --h1: 48px;
+  --h2: 36px;
+  --h3: 30px;
+  --p1: 20px;
+  --p2: 18px;
+  --p3: 14px;
+  --font: "Source Sans Pro", sans-serif;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body button {
+  cursor: pointer;
 }
 
 .wrapper {
-    width: 100vw;
-    min-height: 100vh;
-    background-color: var(--primary-01);
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--primary-01);
+  color: var(--secondary-01);
 }
