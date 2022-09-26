@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 @import url("./styles/nav.css");
+@import url("./styles/hamburger.css");
+@import url("./styles/hero.css");
 :root {
   /*colours*/
   --primary-01: #120f10;
@@ -43,4 +45,17 @@ body button {
   min-height: 100vh;
   background-color: var(--primary-01);
   color: var(--secondary-01);
+}
+
+main {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 75px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    top: 60px;
+  }
 }

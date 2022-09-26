@@ -1,6 +1,7 @@
-@import url("hamburger.css");
-
 nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
   height: 75px;
   width: calc(100% - 120px);
   padding: 0 60px;
@@ -43,8 +44,7 @@ nav img {
   padding-left: 8px;
 }
 
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
   .nav {
     border-bottom: 1px solid var(--primary-01);
   }
@@ -61,7 +61,6 @@ nav img {
     margin: auto 0 auto 30px;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   nav {
