@@ -202,7 +202,6 @@
   }
   .hamburger_menu {
     background-color: var(--secondary-05);
-    height: calc(100% - 61px);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -210,6 +209,7 @@
     align-items: center;
     top: 61px;
     right: 0;
+    padding-bottom: 50px;
   }
 
   .hamburger_menu button {
