@@ -1,0 +1,85 @@
+@import url("hamburger.css");
+
+nav {
+  height: 75px;
+  width: calc(100% - 120px);
+  padding: 0 60px;
+  background-color: var(--secondary-05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 130px;
+  height: 50px;
+}
+
+.menu {
+  padding-right: 45px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.menu button {
+  background-color: transparent;
+  color: var(--secondary-01);
+  font-size: var(--p1);
+  border: none;
+  margin: auto 20px;
+  font-family: var(--font);
+}
+
+.menu .menu__btn--last {
+  color: var(--accent-01);
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid var(--accent-01);
+}
+
+.menu .menu__btn--last > i {
+  padding-left: 8px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .nav {
+    border-bottom: 1px solid var(--primary-01);
+  }
+
+  .menu {
+    padding-right: 0;
+  }
+
+  .menu__btn {
+    display: none;
+  }
+
+  .menu .menu__btn--last {
+    margin: auto 0 auto 30px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    height: 60px;
+    width: calc(100% - 60px);
+    padding: 0 30px;
+  }
+
+  nav img {
+    width: 80px;
+    height: 30px;
+  }
+
+  .menu {
+    padding-right: 0;
+  }
+
+  .menu .menu__btn--last {
+    display: none;
+  }
+}
