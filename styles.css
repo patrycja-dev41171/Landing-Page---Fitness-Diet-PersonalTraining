@@ -7,6 +7,7 @@
 @import url("./styles/section-header.css");
 @import url("./styles/mobile-app.css");
 @import url("./styles/plans.css");
+@import url("./styles/testimonials.css");
 
 :root {
   /*colours*/
@@ -48,7 +49,7 @@ body button {
 
 .wrapper {
   width: 100%;
-  height: 1000vh;
+  height: 1500vh;
   background-color: var(--primary-01);
   color: var(--secondary-01);
 }
