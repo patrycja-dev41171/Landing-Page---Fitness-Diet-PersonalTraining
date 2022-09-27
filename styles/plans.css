@@ -1,0 +1,149 @@
+.section__plans {
+  width: calc(100% - 120px);
+  padding: 120px 60px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__plans__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section__plans__content__card {
+  width: 500px;
+  height: 720px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.section__plans__content__card img {
+  width: 500px;
+}
+
+.section__plans__content__card div {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--secondary-05);
+  width: calc(100% - 40px);
+  height: 250px;
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+}
+
+.section__plans__content__card div h2 {
+  margin-top: 5px;
+  font-size: var(--h3);
+}
+
+.section__plans__content__card div p {
+  font-size: var(--p2);
+  width: 80%;
+}
+
+.section__plans__content__card div button {
+  font-size: var(--p1);
+  background-color: var(--accent-01);
+  font-weight: 600;
+  width: calc(100% - 40px);
+  height: 60px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.section__plans__content__card div button i {
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 1680px) {
+  .section__plans__content__card {
+    width: 360px;
+    height: 520px;
+  }
+
+  .section__plans__content__card img {
+    width: 360px;
+  }
+
+  .section__plans__content__card div {
+    height: 200px;
+  }
+
+  .section__plans__content__card div h2 {
+    margin-top: 5px;
+    font-size: var(--p1);
+  }
+
+  .section__plans__content__card div p {
+    font-size: var(--p3);
+  }
+
+  .section__plans__content__card div button {
+    font-size: var(--p2);
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .section__plans__content {
+    flex-direction: column;
+  }
+
+  .section__plans__content__card {
+    margin-bottom: 60px;
+    width: 500px;
+    height: 720px;
+  }
+
+  .section__plans__content__card img {
+    width: 500px;
+  }
+
+  .section__plans__content__card div {
+    height: 250px;
+  }
+
+  .section__plans__content__card div h2 {
+    font-size: var(--h3);
+  }
+
+  .section__plans__content__card div p {
+    font-size: var(--p2);
+  }
+
+  .section__plans__content__card div button {
+    font-size: var(--p1);
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .section__plans__content__card {
+    margin-bottom: 60px;
+    width: 260px;
+    height: 440px;
+  }
+
+  .section__plans__content__card img {
+    width: 260px;
+  }
+
+  .section__plans__content__card div {
+    height: 140px;
+  }
+
+  .section__plans__content__card div h2 {
+    font-size: var(--p2);
+  }
+
+  .section__plans__content__card div p {
+    font-size: 10px;
+  }
+
+  .section__plans__content__card div button {
+    font-size: var(--p3);
+    height: 35px;
+  }
+}
