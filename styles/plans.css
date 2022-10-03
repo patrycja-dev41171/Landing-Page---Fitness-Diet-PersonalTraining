@@ -45,12 +45,13 @@
 .section__plans__content__card div button {
   font-size: var(--p1);
   background-color: var(--accent-01);
-  font-weight: 600;
+  font-weight: 500;
   width: calc(100% - 40px);
   height: 60px;
   border-radius: 20px;
   position: absolute;
   bottom: 20px;
+  border: none;
 }
 
 .section__plans__content__card div button i {
