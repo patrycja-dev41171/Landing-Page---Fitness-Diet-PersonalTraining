@@ -15,7 +15,7 @@
 }
 
 .section__hero__btn {
-  border: 2px solid var(--secondary-01);
+  border: 1px solid var(--secondary-01);
   background-color: transparent;
   color: var(--secondary-01);
   font-size: var(--p1);
@@ -25,9 +25,8 @@
 }
 
 .section__hero__btn--blue {
-  color: var(--primary-01);
-  border: none;
-  background-color: var(--accent-01);
+  color: var(--accent-01);
+  border: 1px solid var(--accent-01);
   margin: auto 30px auto 15px;
 }
 

@@ -82,3 +82,7 @@ nav img {
     display: none;
   }
 }
+
+.menu button:hover {
+  color: #57c1e3;
+}
