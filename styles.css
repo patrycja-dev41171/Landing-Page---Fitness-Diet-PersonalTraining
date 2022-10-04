@@ -10,6 +10,7 @@
 @import url("./styles/testimonials.css");
 @import url("./styles/newsletter.css");
 @import url("./styles/footer.css");
+@import url("./styles/animations.css");
 
 :root {
   /*colours*/
@@ -36,6 +37,10 @@
   --p2: 18px;
   --p3: 14px;
   --font: "Source Sans Pro", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth ;
 }
 
 body {
@@ -68,3 +73,4 @@ main {
     top: 60px;
   }
 }
+
