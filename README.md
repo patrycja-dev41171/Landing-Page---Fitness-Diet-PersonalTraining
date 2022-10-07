@@ -28,5 +28,7 @@ Kashish Tripathi  www.kashishxd.com
 
 <img src="https://res.cloudinary.com/headhunter/image/upload/v1665145279/landing/landing_mxvdkh.png" alt="Home View" width="500" height="3000"/>
 
+## INFO
 
-
+❗ Design used with the consent of the author for the purpose of learning. 
+❗ No financial benefits from the code created.
