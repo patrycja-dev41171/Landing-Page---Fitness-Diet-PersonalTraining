@@ -1,8 +1,8 @@
 .section__plans {
-  width: calc(100% - 120px);
-  padding: 120px 60px 0;
   display: flex;
   flex-direction: column;
+  width: calc(100% - 120px);
+  padding: 120px 60px 0;
 }
 
 .section__plans__content {
@@ -12,9 +12,9 @@
 }
 
 .section__plans__content__card {
+  position: relative;
   width: 500px;
   height: 720px;
-  position: relative;
   border-radius: 20px;
 }
 
@@ -25,11 +25,11 @@
 .section__plans__content__card div {
   position: absolute;
   bottom: 0;
-  background-color: var(--secondary-05);
   width: calc(100% - 40px);
   height: 250px;
-  border-radius: 0 0 20px 20px;
   padding: 20px;
+  background-color: var(--secondary-05);
+  border-radius: 0 0 20px 20px;
 }
 
 .section__plans__content__card div h2 {
@@ -38,20 +38,21 @@
 }
 
 .section__plans__content__card div p {
-  font-size: var(--p2);
   width: 80%;
+  font-size: var(--p2);
 }
 
 .section__plans__content__card div button {
-  font-size: var(--p1);
-  background-color: var(--accent-01);
-  font-weight: 500;
+  position: absolute;
+  bottom: 20px;
   width: calc(100% - 40px);
   height: 60px;
   border-radius: 20px;
-  position: absolute;
-  bottom: 20px;
-  border: none;
+  border: 1px solid var(--accent-01);
+  background-color: transparent;
+  font-size: var(--p1);
+  color: var(--accent-01);
+  font-weight: 500;
 }
 
 .section__plans__content__card div button i {
@@ -82,8 +83,8 @@
   }
 
   .section__plans__content__card div button {
-    font-size: var(--p2);
     height: 50px;
+    font-size: var(--p2);
   }
 }
 
@@ -93,9 +94,9 @@
   }
 
   .section__plans__content__card {
-    margin-bottom: 60px;
     width: 500px;
     height: 720px;
+    margin-bottom: 60px;
   }
 
   .section__plans__content__card img {
@@ -115,16 +116,16 @@
   }
 
   .section__plans__content__card div button {
-    font-size: var(--p1);
     height: 60px;
+    font-size: var(--p1);
   }
 }
 
 @media screen and (max-width: 560px) {
   .section__plans__content__card {
-    margin-bottom: 60px;
     width: 260px;
     height: 440px;
+    margin-bottom: 60px;
   }
 
   .section__plans__content__card img {
@@ -144,7 +145,7 @@
   }
 
   .section__plans__content__card div button {
-    font-size: var(--p3);
     height: 35px;
+    font-size: var(--p3);
   }
 }

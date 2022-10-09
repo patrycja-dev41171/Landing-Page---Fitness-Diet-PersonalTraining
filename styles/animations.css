@@ -1,0 +1,75 @@
+.menu button:hover {
+  color: var(--accent-01);
+  transition: 0.2s;
+}
+
+.menu .menu__btn--last:hover, button.hamburger__menu__btn--last:hover {
+  color: var(--secondary-01);
+  background-color: #2db2dc;
+}
+
+.section__hero__btn:hover {
+  background-color: var(--secondary-01);
+  color: var(--accent-01);
+  transition: 0.2s;
+}
+
+.section__hero__btn--blue:hover, .section__plans__content__card div button:hover, .section__newsletter__btn:hover {
+  color: var(--secondary-01);
+  background-color: var(--accent-01);
+  transition: 0.2s;
+}
+
+.section__for-who__content > div:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.section__plans__content__card img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.section__mobile-app__content__photo img:hover {
+  cursor: pointer;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+.section__testimonials__content__img:hover {
+  cursor: pointer;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+.section__testimonials__content__info img:hover {
+  cursor: pointer;
+  background-color: var(--accent-01);
+  border-radius: 50px;
+}
+
+.footer__links ul li a:hover {
+  text-decoration: underline;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  60% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  80% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  100% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+}
